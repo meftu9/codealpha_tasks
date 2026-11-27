@@ -1,0 +1,203 @@
+{
+    "CNN": {
+        "test_accuracy": 0.1733333319425583,
+        "test_loss": 2.0513556003570557,
+        "report": {
+            "angry": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 40.0
+            },
+            "calm": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 40.0
+            },
+            "disgust": {
+                "precision": 0.1615720524017467,
+                "recall": 0.925,
+                "f1-score": 0.275092936802974,
+                "support": 40.0
+            },
+            "fearful": {
+                "precision": 0.23728813559322035,
+                "recall": 0.35,
+                "f1-score": 0.2828282828282828,
+                "support": 40.0
+            },
+            "happy": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 40.0
+            },
+            "neutral": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 20.0
+            },
+            "sad": {
+                "precision": 0.125,
+                "recall": 0.025,
+                "f1-score": 0.041666666666666664,
+                "support": 40.0
+            },
+            "surprised": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 40.0
+            },
+            "accuracy": 0.17333333333333334,
+            "macro avg": {
+                "precision": 0.06548252349937088,
+                "recall": 0.16249999999999998,
+                "f1-score": 0.07494848578724043,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.0698480250659956,
+                "recall": 0.17333333333333334,
+                "f1-score": 0.0799450515063898,
+                "support": 300.0
+            }
+        }
+    },
+    "Bi-LSTM": {
+        "test_accuracy": 0.30666667222976685,
+        "test_loss": 1.882890224456787,
+        "report": {
+            "angry": {
+                "precision": 0.5,
+                "recall": 0.475,
+                "f1-score": 0.48717948717948717,
+                "support": 40.0
+            },
+            "calm": {
+                "precision": 0.3135593220338983,
+                "recall": 0.925,
+                "f1-score": 0.46835443037974683,
+                "support": 40.0
+            },
+            "disgust": {
+                "precision": 0.38461538461538464,
+                "recall": 0.25,
+                "f1-score": 0.30303030303030304,
+                "support": 40.0
+            },
+            "fearful": {
+                "precision": 0.2,
+                "recall": 0.025,
+                "f1-score": 0.044444444444444446,
+                "support": 40.0
+            },
+            "happy": {
+                "precision": 0.3055555555555556,
+                "recall": 0.275,
+                "f1-score": 0.2894736842105263,
+                "support": 40.0
+            },
+            "neutral": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 20.0
+            },
+            "sad": {
+                "precision": 0.11428571428571428,
+                "recall": 0.1,
+                "f1-score": 0.10666666666666667,
+                "support": 40.0
+            },
+            "surprised": {
+                "precision": 0.23809523809523808,
+                "recall": 0.25,
+                "f1-score": 0.24390243902439024,
+                "support": 40.0
+            },
+            "accuracy": 0.30666666666666664,
+            "macro avg": {
+                "precision": 0.25701390182322387,
+                "recall": 0.2875,
+                "f1-score": 0.24288143186694558,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.2741481619447721,
+                "recall": 0.30666666666666664,
+                "f1-score": 0.259073527324742,
+                "support": 300.0
+            }
+        }
+    },
+    "CRNN": {
+        "test_accuracy": 0.3799999952316284,
+        "test_loss": 1.8887608051300049,
+        "report": {
+            "angry": {
+                "precision": 0.52,
+                "recall": 0.65,
+                "f1-score": 0.5777777777777777,
+                "support": 40.0
+            },
+            "calm": {
+                "precision": 0.3063063063063063,
+                "recall": 0.85,
+                "f1-score": 0.4503311258278146,
+                "support": 40.0
+            },
+            "disgust": {
+                "precision": 0.39285714285714285,
+                "recall": 0.275,
+                "f1-score": 0.3235294117647059,
+                "support": 40.0
+            },
+            "fearful": {
+                "precision": 0.5714285714285714,
+                "recall": 0.1,
+                "f1-score": 0.1702127659574468,
+                "support": 40.0
+            },
+            "happy": {
+                "precision": 0.3448275862068966,
+                "recall": 0.5,
+                "f1-score": 0.40816326530612246,
+                "support": 40.0
+            },
+            "neutral": {
+                "precision": 0.3,
+                "recall": 0.15,
+                "f1-score": 0.2,
+                "support": 20.0
+            },
+            "sad": {
+                "precision": 0.2727272727272727,
+                "recall": 0.15,
+                "f1-score": 0.1935483870967742,
+                "support": 40.0
+            },
+            "surprised": {
+                "precision": 0.7142857142857143,
+                "recall": 0.25,
+                "f1-score": 0.37037037037037035,
+                "support": 40.0
+            },
+            "accuracy": 0.38,
+            "macro avg": {
+                "precision": 0.42780407422648803,
+                "recall": 0.365625,
+                "f1-score": 0.33674163801262647,
+                "support": 300.0
+            },
+            "weighted avg": {
+                "precision": 0.43632434584158714,
+                "recall": 0.38,
+                "f1-score": 0.3458577472134683,
+                "support": 300.0
+            }
+        }
+    }
+}
