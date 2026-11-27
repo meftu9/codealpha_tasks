@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Large raw datasets & intermediate feature dumps
+dataset/raw/*.csv
+dataset/raw/*.npz
+!dataset/raw/.gitkeep
+
+models/credit_features.joblib
+models/all_models.joblib
+
+# Temporary files (keep folder structure and sample test buffer)
+temp/*
+!temp/.gitkeep
+!temp/current_applicant.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/*
+!.vscode/settings.json
