@@ -1,66 +1,15 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# C extensions
-*.so
+# Temporary files
+temp/
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Large datasets
+*.wav
 
-# Virtual Environments
-venv/
-.venv/
-env/
-ENV/
-env.bak/
-venv.bak/
+# Duplicate generated files
+*.npz
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# Large raw datasets & preprocessed feature dumps
-# (Raw datasets are automatically downloaded via src/emnist_loader.py when needed)
-dataset/raw/*.npz
-dataset/raw/*.gz
-dataset/raw/*.zip
-!dataset/raw/.gitkeep
-
-# Large intermediate array dump (>50MB exceeds GitHub warning limit)
-models/character_features.npz
-
-# Temporary files (keep folder structure and sample test buffer)
-temp/*
-!temp/.gitkeep
-!temp/current_character.png
-
-# Operating System files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# IDE files
-.idea/
-*.sublime-project
-*.sublime-workspace
-.vscode/*
-!.vscode/settings.json
+# Duplicate models inside notebooks
+**/notebook/*.keras
